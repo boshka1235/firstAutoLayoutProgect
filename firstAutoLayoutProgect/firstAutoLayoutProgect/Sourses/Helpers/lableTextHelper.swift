@@ -9,28 +9,30 @@
 import Foundation
 import UIKit
 
-func textHelper(text: UILabel, backgroundColor: UIColor?, textAligment: NSTextAlignment?, attributedText: NSAttributedString?, textColor: UIColor?, font: UIFont?){
-	text.backgroundColor = backgroundColor
-	text.textAlignment = textAligment!
-	text.textColor = textColor
-	text.font = font
-	text.attributedText = attributedText
-	if backgroundColor != nil {
+	func textHelper(text: UILabel, backgroundColor: UIColor?, textAligment: NSTextAlignment?, attributedText: NSAttributedString? = nil, textColor: UIColor?, font: UIFont? = nil){
 		text.backgroundColor = backgroundColor
-	}
-
-	if textAligment != nil {
 		text.textAlignment = textAligment!
-	}
-
-	if textColor != nil {
 		text.textColor = textColor
-	}
-
-	if font != nil {
 		text.font = font
-	}
+		text.attributedText = attributedText
+		if backgroundColor != nil {
+			text.backgroundColor = backgroundColor
+		}
 
-	if attributedText != nil {
-		text.attributedText = attributedText    }
-}
+		if textAligment != nil {
+			text.textAlignment = textAligment!
+		}
+
+		if textColor != nil {
+			text.textColor = textColor
+		}
+
+		if font != nil {
+			text.font = font
+		}
+
+		if attributedText != nil {
+			text.attributedText = attributedText
+		}
+	}
+	

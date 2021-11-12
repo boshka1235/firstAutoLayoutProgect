@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		9063717527255B6300332F37 /* helperConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063717427255B6300332F37 /* helperConstraints.swift */; };
 		9063717727255B7700332F37 /* lableTextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063717627255B7700332F37 /* lableTextHelper.swift */; };
+		90EF255027270CC700C6A0EB /* cellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF254F27270CC700C6A0EB /* cellProtocol.swift */; };
 		90FD1DB3272462850033727E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD1DB2272462850033727E /* AppDelegate.swift */; };
 		90FD1DBC272462870033727E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FD1DBB272462870033727E /* Assets.xcassets */; };
 		90FD1DBF272462870033727E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FD1DBD272462870033727E /* LaunchScreen.storyboard */; };
 		90FD1DCA272462870033727E /* firstAutoLayoutProgectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD1DC9272462870033727E /* firstAutoLayoutProgectTests.swift */; };
 		90FD1DD7272464A80033727E /* LayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD1DD6272464A80033727E /* LayoutController.swift */; };
 		90FD1DD9272464FF0033727E /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FD1DD8272464FF0033727E /* MainNavigationController.swift */; };
+		90FF4E72272803E600DC619F /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF4E71272803E600DC619F /* MainCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,7 @@
 /* Begin PBXFileReference section */
 		9063717427255B6300332F37 /* helperConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = helperConstraints.swift; path = ../../../../../Desktop/helperConstraints.swift; sourceTree = "<group>"; };
 		9063717627255B7700332F37 /* lableTextHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lableTextHelper.swift; sourceTree = "<group>"; };
+		90EF254F27270CC700C6A0EB /* cellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellProtocol.swift; sourceTree = "<group>"; };
 		90FD1DAF272462850033727E /* firstAutoLayoutProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstAutoLayoutProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FD1DB2272462850033727E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90FD1DBB272462870033727E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		90FD1DCB272462870033727E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90FD1DD6272464A80033727E /* LayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutController.swift; sourceTree = "<group>"; };
 		90FD1DD8272464FF0033727E /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		90FF4E71272803E600DC619F /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				90FD1DB2272462850033727E /* AppDelegate.swift */,
 				90FD1DD6272464A80033727E /* LayoutController.swift */,
 				90FD1DD8272464FF0033727E /* MainNavigationController.swift */,
+				90EF254F27270CC700C6A0EB /* cellProtocol.swift */,
+				90FF4E71272803E600DC619F /* MainCell.swift */,
 				9063717127255B0700332F37 /* Helpers */,
 			);
 			path = Sourses;
@@ -219,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				90FD1DD9272464FF0033727E /* MainNavigationController.swift in Sources */,
+				90FF4E72272803E600DC619F /* MainCell.swift in Sources */,
+				90EF255027270CC700C6A0EB /* cellProtocol.swift in Sources */,
 				9063717727255B7700332F37 /* lableTextHelper.swift in Sources */,
 				90FD1DB3272462850033727E /* AppDelegate.swift in Sources */,
 				9063717527255B6300332F37 /* helperConstraints.swift in Sources */,

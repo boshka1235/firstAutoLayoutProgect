@@ -11,8 +11,8 @@ import UIKit
 
 class MainNavigationController: UINavigationController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .white
-    }
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		view.backgroundColor = .white
+	}
 }
